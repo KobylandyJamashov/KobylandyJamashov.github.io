@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body id="body">
+    <header class="header">
+        <h2 class="header__title">Портфолио</h2>
+        <ul class="header__nav">
+            <li class="header__item"><a href="#main" class="header__link">Главная</a></li>
+            <li class="header__item"><a href="#about" class="header__link">О себе</a></li>
+            <li class="header__item"><a href="#skills" class="header__link">Мои навыки</a></li>
+            <li class="header__item"><a href="#kontakts" class="header__link">Оставить заявку</a></li>
+        </ul>
+    </header>
+    <section id="main" class="main">
+        <div class="main__works">
+            <h1>Веб-разработчик</h1>
+            <div class="main__works__title">Мои работы</div>
+            <div class="wrapper">
+                <button class="btn" id="main_btn">Ссылки на прошлые работы ▲</button>
+                <div class="main__falling-modal" id="fallingModal">
+                    <ul>
+                        <li class="main__falling-modal__item"><a href="https://github.com/Aibekin/Aibekin.github.io" target="_blank">https://github.com/Aibekin/Aibekin.github.io</a></li>
+                        <li class="main__falling-modal__item"><a href="https://github.com/Aibekin/pulse" target="_blank">https://github.com/Aibekin/pulse</a></li>
+                        <li class="main__falling-modal__item"><a href="https://github.com/itjetfll/itjetfll.github.io" target="_blank">https://github.com/itjetfll/itjetfll.github.io</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main__content">
+            <div class="main__img">
+                <img src="img/portret.jpg" alt="portret">
+            </div>
+            <div class="main__descr">
+                <p>Кобыланды <br> Джамашов</p>
+                <ul>
+                    <li>-Сайты любой сложности: от Одностраничных до Магазинов;</li>
+                    <li>-Согласен на любую сумму;</li>
+                    <li>-Маленький опыт, но большой потенциал;</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="title"><div>Обо мне</div></h2>
+        <div class="content">
+            <div class="about__out" id="out"></div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h2 class="title"><div>Мои навыки</div></h2>
+        <div class="skills__slider">
+            <div class="slide slide-active" id="WebDev">
+                <h2 class="slide__title">Web-development</h2>
+                <div class="slide__content slide__1">
+                    <ul class="skill__name">
+                        <li class="slide__skill slide__1__skill html">HT<span>ML5</span></li>
+                        <li class="slide__skill slide__1__skill css">C<span>SS</span></li>
+                        <li class="slide__skill slide__1__skill js">JavaScript</li>
+                        <li class="slide__skill slide__1__skill react">React<span>.JS</span></li>
+                        <li class="slide__skill slide__1__skill sass">Sass/Scss</li>
+                    </ul>
+                    <ul class="skill__progress">
+                        <li class="slide__progress">
+                            <span>75%</span>
+                            <div class="slide__progress__level slide__progress__level1 slide__progress__level1-html"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>75%</span>
+                            <div class="slide__progress__level slide__progress__level1 slide__progress__level1-css"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>60%</span>
+                            <div class="slide__progress__level slide__progress__level1 slide__progress__level1-js"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>50%</span>
+                            <div class="slide__progress__level slide__progress__level1 slide__progress__level1-react"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>80%</span>
+                            <div class="slide__progress__level slide__progress__level1 slide__progress__level1-sass"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide" id="Met-Tech">
+                <h2 class="slide__title">Methodology & Technology</h2>
+                <div class="slide__content  slide__2">
+                    <ul class="skill__name">
+                        <li class="slide__skill git">GIT</li>
+                        <li class="slide__skill github">Github</li>
+                        <li class="slide__skill bem">БЭМ</li>
+                        <li class="slide__skill oop"><span>ОО</span>П</li>
+                    </ul>
+                    <ul class="skill__progress">
+                        <li class="slide__progress">
+                            <span>75%</span>
+                            <div class="slide__progress__level slide__progress__level2 slide__progress__level2-git"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>80%</span>
+                            <div class="slide__progress__level slide__progress__level2 slide__progress__level2-github"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>90%</span>
+                            <div class="slide__progress__level slide__progress__level2 slide__progress__level2-bem"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>70%</span>
+                            <div class="slide__progress__level slide__progress__level2 slide__progress__level2-oop"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide" id="other">
+                <h2 class="slide__title">Other</h2>
+                <div class="slide__content slide__3">
+                    <ul class="skill__name">
+                        <li class="slide__skill figma"><span class="f">F</span><span class="i">i</span><span class="g">g</span><span class="m">m</span><span class="a">a</span></li>
+                        <li class="slide__skill express">Express<span>.JS</span></li>
+                        <li class="slide__skill node">node.JS</li>
+                        <li class="slide__skill vsc"><span class="v">Visual</span> <span class="s">Studio</span> <span class="c">Code</span></li>
+                        <li class="slide__skill python"><span>Pyt</span>hon</li>
+                    </ul>
+                    <ul class="skill__progress">
+                        <li class="slide__progress">
+                            <span>70%</span>
+                            <div class="slide__progress__level slide__progress__level3 slide__progress__level3-figma"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>70%</span>
+                            <div class="slide__progress__level slide__progress__level3 slide__progress__level3-express"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>85%</span>
+                            <div class="slide__progress__level slide__progress__level3 slide__progress__level3-node"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>95%</span>
+                            <div class="slide__progress__level slide__progress__level3 slide__progress__level3-vsc"></div>
+                        </li>
+                        <li class="slide__progress">
+                            <span>80%</span>
+                            <div class="slide__progress__level slide__progress__level3 slide__progress__level3-python"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a id="prev">&#10094</a>
+            <a id="next">&#10095</a>
+        </div>
+    </section>
+
+    <section class="kontakts" id="kontakts">
+        <h2 class="title"><div>Контакты</div></h2>
+        <div class="wrapper">
+            <div class="kontakts__img">
+                <img src="img/portret2.jpg" alt="">
+            </div>
+            <div class="kontakts__links">
+                <ul class="kontakts__logo">
+                    <li class="kontakts__logo__item"><img src="icons/insta.svg" alt=""></li>
+                    <li class="kontakts__logo__item"><img src="icons/telegram.svg" alt=""></li>
+                    <li class="kontakts__logo__item"><img src="icons/email.svg" alt=""></li>
+                    <li class="kontakts__logo__item"><img src="icons/telephone.svg" alt=""></li>
+                </ul>
+                <ul class="kontakts__link">
+                    <li class="kontakts__link__item"><a href="https://instagram.com/kobetrikru?igshid=Y2IzZGU1MTFhOQ==" class="link link-insta">@kobetrikru</a></li>
+                    <li class="kontakts__link__item"><a href="https://t.me/kobetrikru" class="link link-telegram">@kobetrikru</a></li>
+                    <li class="kontakts__link__item"><a href="mailto:kobetrikru@gmail.com" class="link link-email">kobetrikru@gmail.com</a></li>
+                    <li class="kontakts__link__item"><a href="tel:87026366590" class="link link-telephone">8-702-636-6590</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
